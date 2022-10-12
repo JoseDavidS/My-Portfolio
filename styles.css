@@ -36,6 +36,8 @@ button:hover{
 
 header{
     background-color: rgb(245, 245, 245);
+    widht:100%;
+    position: fixed;
 }
 
 header .logo{
@@ -48,15 +50,12 @@ header .logo{
 
 header .container{
     display: flex;
-    flex-direction: column;
+    justify-content:space-between;
     align-items: center;
 }
 
 header nav{
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    padding-bottom: 25px;
 }
 
 header a{
@@ -84,11 +83,20 @@ header a:hover{
         rgba(0,0,0,0.5)
 
     ) 
-    ,url("media/PrimeraOF.jpg");
+    ,url("media/header.jpg");
+    widht: 100%;
+    animation: movimiento 10s infinite linear alternate;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    } to {
+        background-position: top right;
+    }
 
 #hero h1{
     color: white;
@@ -114,10 +122,6 @@ header a:hover{
     font-size: 3.5em;
 }
 
-#Mis-Estudios p{
-    display: none;
-}
-
 #Mis-Estudios .carta{
     background-position: center center;
     background-size: cover;
@@ -125,6 +129,12 @@ header a:hover{
     margin: 20px;
     border-radius: 15px;
 }
+
+.programas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
 
 .carta:first-child{
     background-image: linear-gradient(
