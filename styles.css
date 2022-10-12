@@ -84,7 +84,7 @@ header a:hover{
         rgba(0,0,0,0.5)
 
     ) 
-    ,url("PrimeraOF.jpg");
+    ,url("/Media/PrimeraOF.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -133,7 +133,7 @@ header a:hover{
         rgba(0,0,0,0.5)
 
     ) 
-    ,url("Facu.jpg");
+    ,url("/Media/Facu.jpg");
     
 }
 
@@ -144,7 +144,7 @@ header a:hover{
         rgba(0,0,0,0.5)
 
     ) 
-    ,url("Lib.jpg");
+    ,url("/Media/Lib.jpg");
     
 }
 
