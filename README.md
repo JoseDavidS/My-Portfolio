@@ -1,2 +1,2 @@
 # My-Portfolio
-Prototipo de mi portafolio mobile.
+Prototipo de mi portafolio.
