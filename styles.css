@@ -77,19 +77,19 @@ header a:hover{
     text-align:center;
     flex-direction: column;
     height: 90vh;
-    color: white;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
 
     ) 
-    ,url("media/header.jpg");
+    ,url("media/fondo.jpg");
     width: 100%;
     animation: movimiento 10s infinite linear alternate;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    font-family: Courier;
 }
 
 @keyframes movimiento{
@@ -101,7 +101,8 @@ header a:hover{
 }
 
 #hero h1{
-    color: white;
+    color:black;
+    font-weight: bold;
 }
 
 #Sobre-Mi .container{
